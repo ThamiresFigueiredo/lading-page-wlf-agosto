@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento WLF - Agosto</title>
+     <link rel="stylesheet" href="style.css" type="text/css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<div id="top-img">
+        <img src="Assets/Images/logo-wlf.png" id="logo-wlf" class="logo" width="400">
+        <img src="Assets/Images/logo-ifood.png" id="logo-ifood" class="logo" width="200" height="100">
+</div>
+
+<div id="corpo">
+<div id="sec1">
+    
+    <div id="info-principal">
+    <h1>Encontro Women Leaders in Fintech | EDIÇÃO AGOSTO</h1>
+    <h2>Data: 17/08/2023</h2>
+    <h2>Local: Escritório iFood em Osasco<br></h2>
+    <p>Avenida dos Autonomistas, 1496, Sexto Andar, Vila Yara - Osasco, SP</p>
+    <h2>Horário: </h2>
+    <h2>Palestrantes confirmados: </h2>
+    <img src="Assets/Images/Lu-Fred-removebg-preview.png" class="palestrantes">
+    <img src="Assets/Images/alex-and-removebg-preview.png" class="palestrantes">
+    <h2>Mediadora:</h2>
+    <img src="Assets/Images/adri-removebg-preview.png" class="palestrantes">
+
+    <h3>Descrição do evento</h3>
+    </div>
+    
+    <div id="orientações">
+    <h2>Orientações Gerais:</h2>
+    <h3>As vagas são limitadas por isso as inscrições serão avaliadas caso a caso para 
+        garantir que os presentes estejam de acordo com a proposta do Women Leaders in Fintechs.<br> 
+        Verificaremos sua inscrição e daremos um retorno por e-mail sobre o resultado da análise.</h3>
+    <img src="Assets/Images/fluxo-wlf.png" id="fluxo">
+    </div>
+
+
+</div>
+
+<div id="formulario">
+
+    <form action="https://api.sheetmonkey.io/form/sRNa6d2SJFzww8eQcoBRDA" method="post"  onsubmit="return validarFormulario(this)">
+    <label class="form-item">Nome e sobrenome:<br><input type="Nome" placeholder="Nome e sobrenome" name="Name" required></label>
+    <label class="form-item">Email:<br><input type="Email" placeholder="Email" name="Email" required></label>
+    <label class="form-item">Celular(Whatsapp):<br><input type="Telefone" placeholder="Telefone" name="Telefone" required></label>
+    <label class="form-item">CPF:<br><input type="Telefone" placeholder="xxx.xxx.xxx-xx" name="Telefone" required></label>
+    <label>Atualmente você faz parte de qual organização/empresa/associação?<br><input type="Organização" placeholder="Organização/empresa/associação" name="Organização" required></label>
+    <label class="form-item">Qual a sua área de atuação profissional?<br><input type="atuação" placeholder="Área de trabalho" name="área" required></label>
+    <label class="form-item">Qual a sua posição na<br>organização/empresa/associação?<br><input type="cargo" placeholder="posição/cargo" name="cargo" required></label>
+    <label class="form-item">Adicione o link do seu LinkedIn:<br><input type="link-linkedin" placeholder="https://www.linkedin.com/in/xxxxxxxxx/" name="link-linkedin" required></label>
+    <label class="form-item">Descreva a sua atuação<br>em fintech/crypto/payments:<br><input type="exp-fintech" placeholder="Fale sobre sua experiência no setor" name="exp-fintech" required></label>
+    <label class="form-item">Por que você deseja participar do Evento X de Women Leaders in Fintechs?<br><input type="expectativas"  name="expectativas" required></label>
+
+<div class="form-item">
+   
+    <label>
+        <input class="selecao" type="radio" name="meio-transporte" value="Veículo Próprio" onclick="mostrarCampoEspecifico(this)">
+        <span>Veículo Próprio</span>
+      </label>
+      <label>
+        <input class="selecao" type="radio" name="meio-transporte" value="Carro de Aplicativo" onclick="mostrarCampoEspecifico(this)">
+        <span>Carro de Aplicativo</span>
+      </label>
+      <label>
+        <input class="selecao" type="radio" name="meio-transporte" value="Outro" onclick="mostrarCampoEspecifico(this)">
+        <span>Outro</span>
+      </label>
+      
+      <div id="campoEspecifico" style="display: none;">
+        <label id="campoEspecificoLabel" class="campo-especifico-label"></label>
+        <input type="text" name="meio-transporte-especifico" class="campo-especifico-input">
+    </div>
+      
+</div>
+
+<div class="form-item">
+
+<label>Possui alguma restrição alimentar? Em caso afirmativo, por favor informe qual restrição.<br><input type="restricao"  name="restricao"></label>
+<br>
+
+</div>
+
+<div class="form-item">
+    <label>Você está ciente de que o Women Leaders in Fintechs é um grupo exclusivo para mulheres em cargos de liderança em empresas fintechs, payments, crypto, investidoras anjo, autoridades fiscais, autoridades regulatórias e investidoras anjo?</label><br><br>
+    <label>
+      <input class="selecao" type="radio" name="ciente" value="sim">
+      <span>Sim</span>
+    </label><br>
+    <label>
+      <input class="selecao" type="radio" name="ciente" value="nao">
+      <span>Não</span>
+    </label><br>
+  </div>
+  
+  <div class="form-item">
+    <label>Você concorda que todas afirmações acima são verdadeiras?</label><br><br>
+    <label>
+      <input class="selecao" type="radio" name="concorda" value="sim">
+      <span>Sim</span>
+    </label><br>
+    <label>
+      <input class="selecao" type="radio" name="concorda" value="nao">
+      <span>Não</span>
+    </label><br>
+  </div>
+  
+  <div class="form-item">
+    <label>Você concorda com o compartilhamento das informações fornecidas com o time de Segurança do iFood?</label><br><br>
+    <label>
+      <input class="selecao" type="radio" name="compartilhamento" value="sim">
+      <span>Sim</span>
+    </label><br>
+    <label>
+      <input class="selecao" type="radio" name="compartilhamento" value="nao">
+      <span>Não</span>
+    </label><br>
+  </div>
+  
+    
+    <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+    <button type="submit" value="Submit">Inscreva-se!</button>
+</form>
+
+</div>
+
+</div>
+
+<div id="footer">
+    <div>
+    <ul>
+        <li><a href='https://www.linkedin.com/company/women-leaders-in-fintechs/' target='_blank'>LinkedIn</a></li>
+        <li><a href='mailto:comunicacao@womenleadersfintechs.com?subject=Contato - Evento Agosto&body=' target='_blank'>E-mail</a></li>
+    </ul>
+    </div>
+
+    <div id="footer-img">
+        <img src="Assets/Images/apoiadores.png" width="800" class="img-final" id="footer-apoiadores">
+        <img src="Assets/Images/logo-wlf.png" width="300" height="80" class="img-final" id="footer-wlf">
+        <img src="Assets/Images/logo-ifood.png" width="150" height="60"class="img-final" id="footer-ifood">
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
