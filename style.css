@@ -34,6 +34,7 @@ body {
 
 .palestrantes {
     margin-left: 10%;
+    width:80%;
 }
 
 #palestrantes {
@@ -560,8 +561,8 @@ button:hover {
     
       #sec1 h1 {
         font-size: 20px;
-        width: 340px;
-        margin-left: 10px;
+        width: 300px;
+        margin-left: 0px;
         margin-top: 50px;
         text-align: center;
         margin-bottom: 50px;
