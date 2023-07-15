@@ -35,7 +35,7 @@ function validarFormulario(form) {
   }
   
   if (radiosSelecionados.length === secoesSelecionadas) {
-    alert('Inscrição concluída com sucesso!');
+    alert('Pré-inscrição concluída com sucesso! Agora só aguardar enquanto analisamos, em breve receberá retorno');
     return true; // Permite o envio do formulário
   } else {
     alert('Por favor, selecione pelo menos uma opção em cada seção.');
