@@ -184,6 +184,10 @@ form label input:not([type="radio"]) {
     font-weight: normal;
 }
 
+#LGPD {
+    font-size: 12px;
+}
+
 form label input[type="radio"] {
     width: 30px;
     height: 30px;
