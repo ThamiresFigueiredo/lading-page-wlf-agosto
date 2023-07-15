@@ -26,10 +26,19 @@ body {
 }
 
 #top-img {
-
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#apoiadores-top {
+    display: flex;
+    justify-content: center;
+}
+
+#logos-apoiadores-top {
+    width: 90%;
 }
 
 .palestrantes {
