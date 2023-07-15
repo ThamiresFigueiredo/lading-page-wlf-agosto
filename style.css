@@ -164,7 +164,7 @@ body {
 form label {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 25px;
 
 }
@@ -173,7 +173,6 @@ form label input:not([type="radio"]) {
     display: block;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
     font-size: 20px;
     width: 100%;
     height: 50px;
@@ -181,6 +180,7 @@ form label input:not([type="radio"]) {
     border-color: transparent;
     box-shadow: 10px 10px #00002E;
     margin-bottom: 1em;
+    font-weight: normal;
 }
 
 form label input[type="radio"] {
@@ -346,7 +346,7 @@ button:hover {
   
     #sec1 h1 {
       font-size: 20px;
-      width: 260px;
+      width: 200px;
       margin-left: 10px;
       margin-top: 50px;
       text-align: center;
