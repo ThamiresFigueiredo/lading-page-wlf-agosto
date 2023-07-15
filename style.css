@@ -264,9 +264,8 @@ button:hover {
 
 #footer ul {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
+    flex-direction: column;
+    
     list-style: none;
     text-decoration: none;
 
