@@ -251,6 +251,7 @@ button:hover {
 }
 
 #footer {
+    clear: both;
     display: grid;
     grid-auto-flow: column;
     color: #00002E;
@@ -270,7 +271,6 @@ button:hover {
 #footer ul {
     display: flex;
     flex-direction: column;
-    
     list-style: none;
     text-decoration: none;
 
